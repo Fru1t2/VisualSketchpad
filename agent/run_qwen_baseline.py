@@ -48,7 +48,8 @@ for task_name in tasks:
         with open(req_file, "r") as f:
             data = json.load(f)
 
-        img_abs_path = os.path.abspath(os.path.join(sample_path, data["images"][0]))
+        img_filename = os.path.basename(data["images"][0])
+        img_abs_path = os.path.abspath(os.path.join(sample_path, img_filename))
         image_url = f"file://{img_abs_path}"
         
         query = re.sub(r"<imag[^>]*>", "", data["query"]).strip()
