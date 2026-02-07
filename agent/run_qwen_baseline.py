@@ -6,12 +6,12 @@ import os
 
 # default: Load the model on the available device(s)
 model = Qwen3VLForConditionalGeneration.from_pretrained(
-    "Qwen/Qwen3-VL-4B-Instruct", dtype="fp16", device_map="cuda:0"
+    "Qwen/Qwen3-VL-4B-Instruct", torch_dtype=torch.float16, device_map="cuda:0"
 )
 
 processor = AutoProcessor.from_pretrained("Qwen/Qwen3-VL-4B-Instruct")
 
-task_dir = "/root/VisualSketchpad/VisualSketchpad/tasks/blink_depth/processed/val_Relative_Depth_1/"
+task_dir = "/mnt/ssd2/cvlab_intern/VisualSketchpad/tasks/blink_depth/processed/val_Relative_Depth_1/"
 with open(os.path.join(task_dir, "request.json"), "r") as f:
     data = json.load(f)
 
