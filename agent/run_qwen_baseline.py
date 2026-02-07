@@ -1,5 +1,6 @@
 from transformers import Qwen3VLForConditionalGeneration, AutoProcessor
 from tqdm import tqdm
+from PIL import Image
 import torch
 import json
 import re
@@ -49,8 +50,8 @@ for task_name in tasks:
             data = json.load(f)
 
         img_filename = os.path.basename(data["images"][0])
-        img_abs_path = os.path.abspath(os.path.join(sample_path, img_filename))
-        image_url = f"file://{img_abs_path}"
+        img_abs_path = os.path.join(sample_path, img_filename)
+        image_obj = Image.open(img_abs_path).convert("RGB")
         
         query = re.sub(r"<imag[^>]*>", "", data["query"]).strip()
 
@@ -58,7 +59,7 @@ for task_name in tasks:
             {
                 "role": "user",
                 "content": [
-                    {"type": "image", "image": image_url},
+                    {"type": "image", "image": image_obj},
                     {"type": "text", "text": query},
                 ],
             }
