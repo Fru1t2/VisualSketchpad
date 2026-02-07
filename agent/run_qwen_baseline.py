@@ -6,7 +6,7 @@ import os
 
 # default: Load the model on the available device(s)
 model = Qwen3VLForConditionalGeneration.from_pretrained(
-    "Qwen/Qwen3-VL-4B-Instruct", torch_dtype=torch.float16, device_map="cuda:0"
+    "Qwen/Qwen3-VL-4B-Instruct", dtype=torch.float16, device_map="cuda:0"
 )
 
 processor = AutoProcessor.from_pretrained("Qwen/Qwen3-VL-4B-Instruct")
