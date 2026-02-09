@@ -1,4 +1,4 @@
-from gradio_client import Client, file
+from gradio_client import Client, handle_file
 from multimodal_conversable_agent import MultimodalConversableAgent
 from PIL import Image, ImageDraw
 import numpy as np
@@ -70,7 +70,7 @@ def segment_and_mark(image, granularity:float = 1.8, alpha:float = 0.1, anno_mod
         image.save(tmp_file.name, 'JPEG')
         image = tmp_file.name
 
-        outputs = som_client.predict(file(image), granularity, alpha, "Number", anno_mode)
+        outputs = som_client.predict(handle_file(image), granularity, alpha, "Number", anno_mode)
 
         original_image = Image.open(image)
         output_image = Image.open(outputs[0])
@@ -116,7 +116,7 @@ def detection(image, objects, box_threshold:float = 0.35, text_threshold:float =
         image.save(tmp_file.name, 'JPEG')
         image = tmp_file.name
     
-        outputs = gd_client.predict(file(image), ', '.join(objects), box_threshold, text_threshold)
+        outputs = gd_client.predict(handle_file(image), ', '.join(objects), box_threshold, text_threshold)
         
         # process images
         original_image = Image.open(image)
@@ -154,7 +154,7 @@ def depth(image):
     with tempfile.NamedTemporaryFile(delete=True) as tmp_file:
         image.save(tmp_file.name, 'JPEG')
         image = tmp_file.name
-        outputs = da_client.predict(file(image))
+        outputs = da_client.predict(handle_file(image))
     output_image = Image.open(outputs)
     
     return output_image
