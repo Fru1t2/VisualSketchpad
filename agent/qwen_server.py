@@ -21,10 +21,25 @@ async def chat_completions(request: Request):
     generated_ids = model.generate(**inputs, max_new_tokens=128)
     output_text = processor.batch_decode(generated_ids[:, inputs.input_ids.shape[1]:], skip_special_tokens=True)[0]
 
-    return {
-        "choices": [{"message": {"role": "assistant", "content": output_text}}],
-        "usage": {"total_tokens": 0}
-    }
+    prompt_tokens = inputs.input_ids.shape[1]
+    completion_tokens = generated_ids.shape[1] - prompt_tokens
+    total_tokens = prompt_tokens + completion_tokens
 
+    return {
+        "id": "chatcmpl-qwen",
+        "object": "chat.completion",
+        "created": 123456789,
+        "model": "qwen3-vl",
+        "choices": [{
+            "index": 0,
+            "message": {"role": "assistant", "content": output_text},
+            "finish_reason": "stop"
+        }],
+        "usage": {
+            "prompt_tokens": prompt_tokens,
+            "completion_tokens": completion_tokens,
+            "total_tokens": total_tokens
+        }
+    }
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
