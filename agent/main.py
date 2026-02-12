@@ -121,7 +121,10 @@ def run_agent(task_input, output_dir, task_type="vision", task_name=None):
     with open(os.path.join(task_directory, "output.json"), "w") as f:
         json.dump(all_messages, f, indent=4, default=custom_encoder)
         
-    usage_summary = {'total': planner.client.total_usage_summary, 'actual': planner.client.actual_usage_summary}
+    total_usage = planner.client.total_usage_summary if planner.client.total_usage_summary is not None else {}
+    actual_usage = planner.client.actual_usage_summary if planner.client.actual_usage_summary is not None else {}
+
+    usage_summary = {'total': total_usage, 'actual': actual_usage}
     with open(os.path.join(task_directory, "usage_summary.json"), "w") as f:
         json.dump(usage_summary, f, indent=4)
         
