@@ -40,6 +40,8 @@ async def chat_completions(request: Request):
             "completion_tokens": completion_tokens,
             "total_tokens": total_tokens
         }
+
+        "cost": 0.0
     }
 if __name__ == "__main__":
     uvicorn.run(app, host="0.0.0.0", port=8000)
