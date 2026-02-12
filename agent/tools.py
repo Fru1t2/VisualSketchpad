@@ -115,22 +115,29 @@ def detection(image, objects, box_threshold:float = 0.35, text_threshold:float =
     with tempfile.NamedTemporaryFile(delete=True) as tmp_file:
         image.save(tmp_file.name, 'JPEG')
         image = tmp_file.name
-    
-        outputs = gd_client.predict(handle_file(image), ', '.join(objects), box_threshold, text_threshold)
-        
-        # process images
-        original_image = Image.open(image)
-        output_image = Image.open(outputs[0])
-        output_image = AnnotatedImage(output_image, original_image)
-        
-        # process boxes
-        boxes = outputs[1]['boxes']
-        processed_boxes = []
-        
-        for box in boxes:
-            processed_boxes.append((box[0]-box[2]/2, box[1] - box[3]/2, box[2], box[3]))
-        
-    return output_image, processed_boxes
+        try:
+            outputs = gd_client.predict(handle_file(image), ', '.join(objects), box_threshold, text_threshold)
+            
+            if outputs is None:
+                print("[Warning] DINO server sent empty response(None).")
+                return None, []
+            
+            # process images
+            original_image = Image.open(image)
+            output_image = Image.open(outputs[0])
+            output_image = AnnotatedImage(output_image, original_image)
+            
+            # process boxes
+            boxes = outputs[1]['boxes']
+            processed_boxes = []
+            
+            for box in boxes:
+                processed_boxes.append((box[0]-box[2]/2, box[1] - box[3]/2, box[2], box[3]))
+            
+            return output_image, processed_boxes
+        except Exception as e:
+            print(f"[DINO error] {e}")
+            return None, []
 
 
 
@@ -151,13 +158,18 @@ def depth(image):
         output_image = depth(image)
         display(output_image)
     """
-    with tempfile.NamedTemporaryFile(delete=True) as tmp_file:
-        image.save(tmp_file.name, 'JPEG')
-        image = tmp_file.name
-        outputs = da_client.predict(handle_file(image))
-    output_image = Image.open(outputs)
-    
-    return output_image
+    try:
+        with tempfile.NamedTemporaryFile(delete=True) as tmp_file:
+            image.save(tmp_file.name, 'JPEG')
+            image = tmp_file.name
+            outputs = da_client.predict(handle_file(image))
+        if outputs:
+            return Image.open(outputs)
+        return image
+        
+    except Exception as e:
+        print(f"[Depth error] {e}")
+        return image
 
 
 def crop_image(image, x:float, y:float, width:float, height:float):
