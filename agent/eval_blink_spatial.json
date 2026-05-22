@@ -1,0 +1,1289 @@
+[
+    {
+        "id": "val_Spatial_Relation_1",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 232.397623360157,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_10",
+        "prediction_raw": "The laptop is touching the person.\n\nThe person's hand is resting on the laptop's touchpad, which is part of the laptop's surface. The hand is in direct physical contact with the laptop.\n\nTherefore, the correct answer is: **(A) yes**",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 2467.8911082446575,
+        "token_count": 54
+    },
+    {
+        "id": "val_Spatial_Relation_100",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "A",
+        "is_correct": false,
+        "latency": 228.17373648285866,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_101",
+        "prediction_raw": "The image shows a young child sitting on a wooden chair. The chair is positioned beneath the child, supporting her as she sits. Therefore, the chair is under the person.\n\nCorrect answer: **(A) yes**",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 2054.7634661197662,
+        "token_count": 45
+    },
+    {
+        "id": "val_Spatial_Relation_102",
+        "prediction_raw": "The image shows a suitcase placed on top of a couch. The couch is a piece of furniture with a patterned fabric, and the suitcase is resting directly on it. Therefore, the couch is indeed under the suitcase.\n\nAnswer: **(A) yes**",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 2447.7978870272636,
+        "token_count": 53
+    },
+    {
+        "id": "val_Spatial_Relation_103",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 242.4749881029129,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_104",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 227.74575278162956,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_105",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "B",
+        "is_correct": false,
+        "latency": 223.81410002708435,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_106",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 224.26244989037514,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_107",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 230.18968477845192,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_108",
+        "prediction_raw": "The image shows a black cat sitting on a wooden surface, which appears to be a dining table or a similar piece of furniture. The cat is positioned directly on the table, with its body resting on the surface and its paws on the table. The laptop is also on the same table, next to the cat.\n\nTherefore, the dining table is touching the cat.\n\n**Answer: (A) yes**",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 3758.653972297907,
+        "token_count": 83
+    },
+    {
+        "id": "val_Spatial_Relation_109",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 228.02116349339485,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_11",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 227.2546924650669,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_110",
+        "prediction_raw": "The image shows a group of people on a boat, not a TV. The boat is in the background, and the people are standing on it. There is no TV visible in the image.\n\nTherefore, the correct answer is:\n**(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 2375.0149980187416,
+        "token_count": 52
+    },
+    {
+        "id": "val_Spatial_Relation_111",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 228.4499891102314,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_112",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 223.85786846280098,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_113",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 245.62452733516693,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_114",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 223.4497331082821,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_115",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 227.84586995840073,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_116",
+        "prediction_raw": "The person is standing on the bathroom counter, and the hair dryer is also on the counter, to the left of the person. Therefore, the person is not below the hair drier.\n\nCorrect answer: **(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 2198.3283795416355,
+        "token_count": 48
+    },
+    {
+        "id": "val_Spatial_Relation_117",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 228.29501330852509,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_118",
+        "prediction_raw": "The image shows a dog reflected in the car's side mirror. The mirror is on the driver's side of the car, and the dog is visible inside the car, with its head sticking out of the window. Since the mirror is on the left side of the car (from the driver's perspective), and the dog is inside the car, it is positioned on the left side of the car.\n\nTherefore, the correct answer is:  \n**(A) yes**",
+        "prediction_parsed": "A",
+        "ground_truth": "B",
+        "is_correct": false,
+        "latency": 4236.94534599781,
+        "token_count": 94
+    },
+    {
+        "id": "val_Spatial_Relation_119",
+        "prediction_raw": "The cat is sitting upright and looking directly toward the camera, not toward the keyboard. Its body is oriented toward the viewer, and its gaze is forward, not at the keyboard which is positioned in front of it on the desk. Therefore, the cat is not facing the keyboard.\n\n**Answer: (B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 2956.4904049038887,
+        "token_count": 65
+    },
+    {
+        "id": "val_Spatial_Relation_12",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 218.96293759346008,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_120",
+        "prediction_raw": "The bed is not touching the book. The book is being held by a child and is positioned above the bed, not resting on or touching it.\n\nAnswer: (B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 1703.1083889305592,
+        "token_count": 37
+    },
+    {
+        "id": "val_Spatial_Relation_121",
+        "prediction_raw": "The image shows a potted plant (a small glass vase with flowers) placed on a dining table. The table is the surface on which the plant rests, so the plant is *on* the table, not away from it.\n\nTherefore, the correct answer is:  \n**(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 2808.5005432367325,
+        "token_count": 61
+    },
+    {
+        "id": "val_Spatial_Relation_122",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 224.83384236693382,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_123",
+        "prediction_raw": "The image shows a bedroom with a bed in the foreground and a dog visible in the background, near an open doorway. The bed is clearly positioned in the foreground, while the dog is further back, not on or beneath the bed. Therefore, the bed is not beneath the dog.\n\nCorrect answer: **(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 3045.935720205307,
+        "token_count": 67
+    },
+    {
+        "id": "val_Spatial_Relation_124",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 231.45952820777893,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_125",
+        "prediction_raw": "The person is holding the remote, so they are not beneath it. The remote is in their hand, above their body.\n\nCorrect answer: **(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 1612.6010119915009,
+        "token_count": 35
+    },
+    {
+        "id": "val_Spatial_Relation_126",
+        "prediction_raw": "The image shows a pizza on a baking stone or tray, which is placed on a stovetop. The oven is not visible in the image, and the pizza is not inside an oven. Therefore, the correct answer is:\n\n**(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 2439.8145638406277,
+        "token_count": 53
+    },
+    {
+        "id": "val_Spatial_Relation_127",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 224.040225148201,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_128",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 228.05169969797134,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_129",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 227.12039574980736,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_13",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 224.39878061413765,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_130",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "A",
+        "is_correct": false,
+        "latency": 227.84492000937462,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_131",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "A",
+        "is_correct": false,
+        "latency": 223.84818270802498,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_132",
+        "prediction_raw": "The cat is standing in front of the open refrigerator and is looking toward the interior of the fridge, which means it is facing the refrigerator.\n\nAnswer: **(A) yes**",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 1689.026452600956,
+        "token_count": 37
+    },
+    {
+        "id": "val_Spatial_Relation_133",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 224.22898560762405,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_134",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 224.4158573448658,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_135",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 228.11994329094887,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_136",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 224.12466257810593,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_137",
+        "prediction_raw": "The image shows a plate with orange segments and apple slices. The orange segments are in the foreground, while the apple slices are positioned slightly behind them and to the right. Since the orange is closer to the viewer and the apple is positioned behind it, the apple is not above the orange — it is behind it.\n\nTherefore, the correct answer is:  \n**(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 3492.3470057547092,
+        "token_count": 77
+    },
+    {
+        "id": "val_Spatial_Relation_138",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 228.72063890099525,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_139",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 227.95384377241135,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_14",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 221.14914283156395,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_140",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 227.8609797358513,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_141",
+        "prediction_raw": "The person is in the middle of throwing the frisbee, with their body rotated and arms extended in the throwing motion. Their face is turned toward the direction the frisbee is being thrown, which is away from the camera. Therefore, they are facing the frisbee.\n\nAnswer: (A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "B",
+        "is_correct": false,
+        "latency": 2911.2363383173943,
+        "token_count": 64
+    },
+    {
+        "id": "val_Spatial_Relation_142",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 227.83855721354485,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_143",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 224.0026257932186,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_15",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 213.08226138353348,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_16",
+        "prediction_raw": "The bus is positioned directly behind the motorcycle, with its front side aligned with the motorcycle’s side, indicating that they are parallel to each other.\n\nAnswer: **(A) yes**",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 1752.0085498690605,
+        "token_count": 38
+    },
+    {
+        "id": "val_Spatial_Relation_17",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 230.46189174056053,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_18",
+        "prediction_raw": "The image shows a person sitting at a wooden dining table. The table is positioned directly in front of the person, with various items (phones, a gun, a bottle, etc.) placed on it. The person is seated at the table, so the table is indeed in front of them.\n\nTherefore, the correct answer is:\n**(A) yes**",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 3273.919716477394,
+        "token_count": 72
+    },
+    {
+        "id": "val_Spatial_Relation_19",
+        "prediction_raw": "The laptop is positioned on a desk, and the person is sitting in the chair facing the laptop. Therefore, the laptop is facing the chair.\n\nAnswer: **(A) yes**",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 1751.0835975408554,
+        "token_count": 38
+    },
+    {
+        "id": "val_Spatial_Relation_2",
+        "prediction_raw": "The cat is sitting on top of the car, not underneath it. The car is covered in snow, and the cat is perched on the snow-covered hood or roof area.\n\nTherefore, the correct answer is: **(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "A",
+        "is_correct": false,
+        "latency": 2284.6483290195465,
+        "token_count": 50
+    },
+    {
+        "id": "val_Spatial_Relation_20",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 227.81482338905334,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_21",
+        "prediction_raw": "The image shows a black cat sitting on a wooden surface, which appears to be a table or countertop. The laptop is also on the same surface. There is no visible dining table underneath the cat. The cat is sitting directly on the table surface.\n\nTherefore, the correct answer is: **(B) no**.",
+        "prediction_parsed": "B",
+        "ground_truth": "A",
+        "is_correct": false,
+        "latency": 3003.744300454855,
+        "token_count": 66
+    },
+    {
+        "id": "val_Spatial_Relation_22",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 227.40066424012184,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_23",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 223.37111458182335,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_24",
+        "prediction_raw": "The cat is curled up in the basket and has its body wrapped around the teddy bear, with its paws and body enclosing the stuffed toy. This indicates the cat is surrounding the teddy bear.\n\n**Answer: (A) yes**",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 2267.5120383501053,
+        "token_count": 50
+    },
+    {
+        "id": "val_Spatial_Relation_25",
+        "prediction_raw": "The image shows a small black lamb (sheep) standing on straw and rocks, with a human hand holding a bottle of milk. The lamb is actively drinking from the bottle, so it is **inside** the bottle’s reach, not outside it.\n\nThe question is: “Is the sheep outside the bottle?” — Since the sheep is drinking from the bottle, it is not *outside* the bottle; it is interacting with it.\n\nTherefore, the correct answer is:  \n**(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "A",
+        "is_correct": false,
+        "latency": 4614.445026963949,
+        "token_count": 102
+    },
+    {
+        "id": "val_Spatial_Relation_26",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 252.47889012098312,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_27",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 231.33264482021332,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_28",
+        "prediction_raw": "The person is seated on a log fence and is looking toward the right side of the image, where the horse is positioned. The horse is facing the person, as its head is turned toward the person’s direction. Therefore, the person is not facing away from the horse.\n\nAnswer: **(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "A",
+        "is_correct": false,
+        "latency": 2901.053961366415,
+        "token_count": 64
+    },
+    {
+        "id": "val_Spatial_Relation_29",
+        "prediction_raw": "The cat is positioned in the foreground, and its body is oriented toward the left side of the image, while the teddy bear is on the right side of the image, near the man’s head. The cat’s tail is extended toward the right, but its head and body are not facing the teddy bear. Therefore, the cat is not facing the teddy bear.\n\nAnswer: **(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 3853.411667048931,
+        "token_count": 85
+    },
+    {
+        "id": "val_Spatial_Relation_3",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 224.58825260400772,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_30",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 227.4642176926136,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_31",
+        "prediction_raw": "The airplane is in the sky, far above and away from the bicycle, which is on the ground. The spatial relationship clearly shows a large distance between them.\n\nAnswer: **(A) yes**",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 1884.1434642672539,
+        "token_count": 41
+    },
+    {
+        "id": "val_Spatial_Relation_32",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 212.78106048703194,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_33",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 223.49292412400246,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_34",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "A",
+        "is_correct": false,
+        "latency": 242.02359095215797,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_35",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 224.0004800260067,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_36",
+        "prediction_raw": "The image shows a boat docked at a pier, with several toilets and a TV on the dock. The boat is not inside the TV; it is a separate object located nearby. Therefore, the correct answer is:\n\n**(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 2286.843504756689,
+        "token_count": 50
+    },
+    {
+        "id": "val_Spatial_Relation_37",
+        "prediction_raw": "The person is holding the book open in front of them and appears to be reading it, with their face partially obscured by the book. This indicates they are facing the book.\n\nAnswer: **(A) yes**",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 2014.1107104718685,
+        "token_count": 44
+    },
+    {
+        "id": "val_Spatial_Relation_38",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 224.9053455889225,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_39",
+        "prediction_raw": "The bench is positioned to the right of the bed, as the bed is on the left side of the image and the bench is on the right side, adjacent to it.\n\nTherefore, the correct answer is: **(A) yes**",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 2241.811364889145,
+        "token_count": 49
+    },
+    {
+        "id": "val_Spatial_Relation_4",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "A",
+        "is_correct": false,
+        "latency": 228.30932214856148,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_40",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 212.81440183520317,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_41",
+        "prediction_raw": "To determine if the orange is at the right side of the umbrella, let's analyze the image.\n\n- The umbrella is a blue paper umbrella with wooden sticks, positioned in the upper part of the image, slightly to the left.\n- The green alien figurine is sitting on a lime wedge, and it has two orange-colored arms or appendages.\n- The orange-colored parts (arms) of the alien are positioned on the **left side** of the alien’s body, which is resting on the lime wedge.\n- Since the alien is on the lime wedge, and the orange parts are on the left side of the alien, they are not to the right of the umbrella.\n\nTherefore, the orange is not at the right side of the umbrella.\n\nAnswer: **(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 7173.62317815423,
+        "token_count": 159
+    },
+    {
+        "id": "val_Spatial_Relation_42",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 227.6233322918415,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_43",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 212.51821517944336,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_44",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 223.6069068312645,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_45",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 223.58303517103195,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_46",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 220.84619849920273,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_47",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 223.39099273085594,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_48",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 247.26900458335876,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_49",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 222.88842126727104,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_5",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 223.75549748539925,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_50",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "B",
+        "is_correct": false,
+        "latency": 228.03042456507683,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_51",
+        "prediction_raw": "The image shows a black car parked next to a bicycle. The bicycle is positioned to the right of the car, and the car is not at the back of the bicycle — rather, the car is in front of the bicycle, with the bicycle’s front wheel and basket visible on the right side of the car.\n\nTherefore, the correct answer is:\n**(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 3452.507719397545,
+        "token_count": 76
+    },
+    {
+        "id": "val_Spatial_Relation_52",
+        "prediction_raw": "The train is visible in the background, behind the stop sign, and appears to be a considerable distance away. The stop sign is in the foreground, while the train is on the tracks further back, with trees and utility poles between them.\n\nTherefore, the correct answer is:  \n**(A) yes**",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 2825.6508708000183,
+        "token_count": 62
+    },
+    {
+        "id": "val_Spatial_Relation_53",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 252.4789534509182,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_54",
+        "prediction_raw": "The teddy bear is positioned next to the bottle on the wooden bench. They are side by side, with the bear on the left and the bottle on the right.\n\nTherefore, the correct answer is: **(A) yes**",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 2198.725312948227,
+        "token_count": 48
+    },
+    {
+        "id": "val_Spatial_Relation_55",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 229.11230474710464,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_56",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 245.30154466629028,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_57",
+        "prediction_raw": "The cake is on the oven's stovetop, which is part of the oven unit. Therefore, the oven is directly beneath the cake — not behind it.\n\nThe correct answer is: **(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 2110.576346516609,
+        "token_count": 46
+    },
+    {
+        "id": "val_Spatial_Relation_58",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "B",
+        "is_correct": false,
+        "latency": 221.7860259115696,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_59",
+        "prediction_raw": "The teddy bear cake is placed on a silver, textured cake board, which is sitting on a wooden dining table. Therefore, the teddy bear is indeed on top of the dining table.\n\n**Answer: (A) yes**",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 2205.2136212587357,
+        "token_count": 48
+    },
+    {
+        "id": "val_Spatial_Relation_6",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 227.4896837770939,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_60",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 223.96374866366386,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_61",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 227.3261919617653,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_62",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 227.07094252109528,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_63",
+        "prediction_raw": "The teddy bear is positioned on the desk, with its body oriented toward the camera and slightly to the right. The book, with its pink hearts, is on the left side of the desk, near the keyboard and mouse. The teddy bear’s head and gaze are directed toward the right side of the frame, not toward the book. Therefore, the teddy bear is not facing the book.\n\nAnswer: **(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 4082.848124206066,
+        "token_count": 90
+    },
+    {
+        "id": "val_Spatial_Relation_64",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 228.16097363829613,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_65",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "A",
+        "is_correct": false,
+        "latency": 244.4211021065712,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_66",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 227.47815772891045,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_67",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 253.3767931163311,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_68",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "B",
+        "is_correct": false,
+        "latency": 227.5598980486393,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_69",
+        "prediction_raw": "The image shows a long-haired cat sitting inside a stainless steel sink, with its head resting in a cup that is also inside the sink. The cat is fully contained within the sink basin.\n\nTherefore, the correct answer is:  \n**(A) yes**",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 2380.0509683787823,
+        "token_count": 52
+    },
+    {
+        "id": "val_Spatial_Relation_7",
+        "prediction_raw": "The person is holding the banana, so they are next to it.\n\nAnswer: (A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 991.7539097368717,
+        "token_count": 21
+    },
+    {
+        "id": "val_Spatial_Relation_70",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 227.59150713682175,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_71",
+        "prediction_raw": "The laptop is on the coffee table, which is positioned in the center of the room. The couch is to the right of the coffee table, and the laptop is facing the couch. Therefore, the laptop is not opposite to the couch — it is in front of it, from the couch’s perspective.\n\nAnswer: **(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "A",
+        "is_correct": false,
+        "latency": 3191.7530968785286,
+        "token_count": 70
+    },
+    {
+        "id": "val_Spatial_Relation_72",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 225.14047846198082,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_73",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 227.8614491224289,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_74",
+        "prediction_raw": "The fire hydrant is positioned directly next to the teddy bear, with the bear's body resting against the hydrant's base. The bear's left arm and torso are clearly in contact with the hydrant, indicating physical contact.\n\nTherefore, the correct answer is: **(A) yes**",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 2766.8016627430916,
+        "token_count": 61
+    },
+    {
+        "id": "val_Spatial_Relation_75",
+        "prediction_raw": "The person is holding a camera and is positioned on one side of a white metal fence, while the zebra is on the other side. There is no physical contact between the person and the zebra; they are separated by the fence. Therefore, the person is not touching the zebra.\n\nCorrect answer: **(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 3145.37787809968,
+        "token_count": 69
+    },
+    {
+        "id": "val_Spatial_Relation_76",
+        "prediction_raw": "The cat is positioned with its body facing the toilet bowl, and its head is turned slightly toward the bowl, indicating it is looking into or interacting with the toilet. It is not facing away from the toilet.\n\nTherefore, the correct answer is: **(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 2564.37686085701,
+        "token_count": 56
+    },
+    {
+        "id": "val_Spatial_Relation_77",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 228.01457718014717,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_78",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 227.77656465768814,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_79",
+        "prediction_raw": "The image shows a person’s hand holding a knife and spreading mustard on a sandwich. The sandwich is on a plate, and the person is interacting with it, but the sandwich is not physically inside the person. It is being held by the person’s hand, which is outside the sandwich.\n\nTherefore, the correct answer is: **(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 3282.6887890696526,
+        "token_count": 72
+    },
+    {
+        "id": "val_Spatial_Relation_8",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 227.9786914587021,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_80",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 224.5531976222992,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_81",
+        "prediction_raw": "The person is holding the pizza slice with their hand, so they are touching it.\n\nAnswer: **(A) yes**",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 1199.995767325163,
+        "token_count": 26
+    },
+    {
+        "id": "val_Spatial_Relation_82",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 227.028489112854,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_83",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 227.93572023510933,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_84",
+        "prediction_raw": "The image shows a blue truck parked outdoors, with a white boat resting on its open cargo bed. The boat is positioned *on top* of the truck, not below it.\n\nTherefore, the correct answer is:  \n**(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "A",
+        "is_correct": false,
+        "latency": 2284.926660358906,
+        "token_count": 50
+    },
+    {
+        "id": "val_Spatial_Relation_85",
+        "prediction_raw": "The image shows a truck towing a boat on a trailer. The truck is positioned in front of the boat, as it is pulling the boat along the road.\n\nTherefore, the correct answer is:  \n**(A) yes**",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 2109.4985753297806,
+        "token_count": 46
+    },
+    {
+        "id": "val_Spatial_Relation_86",
+        "prediction_raw": "The image shows a person’s legs and feet in red high-heeled shoes, lying on a bed with a black-and-white patterned bedspread. The person’s legs are positioned horizontally across the bed, and the perspective is from above or slightly to the side, looking down at the feet and lower legs.\n\nThere is no indication that the person is on the left side of the bed — in fact, the legs are centered or slightly to the right in the frame. The bedspread’s pattern and the positioning of the feet suggest the person is lying in the center or right portion of the bed from the viewer’s perspective.\n\nTherefore, the correct answer is:\n\n**(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 6240.273244678974,
+        "token_count": 138
+    },
+    {
+        "id": "val_Spatial_Relation_87",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 227.93935984373093,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_88",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 228.32078114151955,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_89",
+        "prediction_raw": "The image shows a cat sitting on a wooden surface, which appears to be a dining table. The cat is positioned on top of the table, and the table is beneath it. Therefore, the correct answer is:\n\n**(A) yes**",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 2244.3047240376472,
+        "token_count": 49
+    },
+    {
+        "id": "val_Spatial_Relation_9",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "B",
+        "is_correct": false,
+        "latency": 228.17082330584526,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_90",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 227.67683863639832,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_91",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 227.7529276907444,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_92",
+        "prediction_raw": "The cat is sitting on top of the TV, not underneath it. Therefore, the correct answer is:\n\n**(B) no**",
+        "prediction_parsed": "B",
+        "ground_truth": "A",
+        "is_correct": false,
+        "latency": 1242.6882982254028,
+        "token_count": 27
+    },
+    {
+        "id": "val_Spatial_Relation_93",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 228.39194908738136,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_94",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 223.93964603543282,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_95",
+        "prediction_raw": "The cat is resting its head and body on top of the handbag, with its face and front portion positioned on the bag's surface. The handbag is underneath the cat, supporting its weight.\n\nTherefore, the correct answer is:  \n**(A) yes**",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 2467.6938131451607,
+        "token_count": 54
+    },
+    {
+        "id": "val_Spatial_Relation_96",
+        "prediction_raw": "(B) no",
+        "prediction_parsed": "B",
+        "ground_truth": "B",
+        "is_correct": true,
+        "latency": 228.2530777156353,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_97",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 227.35825926065445,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_98",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 227.5150902569294,
+        "token_count": 4
+    },
+    {
+        "id": "val_Spatial_Relation_99",
+        "prediction_raw": "(A) yes",
+        "prediction_parsed": "A",
+        "ground_truth": "A",
+        "is_correct": true,
+        "latency": 247.32843041419983,
+        "token_count": 4
+    }
+]

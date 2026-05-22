@@ -1,0 +1,15 @@
+import os
+
+# set up the agent
+MAX_REPLY = 2 # data processing
+
+# set up the LLM for the agent
+os.environ['OPENAI_API_KEY'] = 'EMPTY'
+os.environ["AUTOGEN_USE_DOCKER"] = "False"
+llm_config={"cache_seed": None, "config_list": [{"model": "qwen3-vl", "api_key": "NULL", "base_url": "http://localhost:8000/v1"}]}
+
+
+# use this after building your own server. You can also set up the server in other machines and paste them here.
+SOM_ADDRESS = "http://localhost:8080/"
+GROUNDING_DINO_ADDRESS = "http://localhost:8081/"
+DEPTH_ANYTHING_ADDRESS = "http://localhost:8082/"

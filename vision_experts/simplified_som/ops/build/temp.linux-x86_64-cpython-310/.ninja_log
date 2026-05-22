@@ -1,0 +1,7 @@
+# ninja log v7
+0	4975	1770471611615897089	/mnt/ssd2/cvlab_intern/VisualSketchpad/vision_experts/simplified_som/ops/build/temp.linux-x86_64-cpython-310/mnt/ssd2/cvlab_intern/VisualSketchpad/vision_experts/simplified_som/ops/src/cpu/ms_deform_attn_cpu.o	cff6b6bd32eab649
+1	16097	1770471611615897089	/mnt/ssd2/cvlab_intern/VisualSketchpad/vision_experts/simplified_som/ops/build/temp.linux-x86_64-cpython-310/mnt/ssd2/cvlab_intern/VisualSketchpad/vision_experts/simplified_som/ops/src/vision.o	e6fe663e109338e6
+1	18349	1770471611615897089	/mnt/ssd2/cvlab_intern/VisualSketchpad/vision_experts/simplified_som/ops/build/temp.linux-x86_64-cpython-310/mnt/ssd2/cvlab_intern/VisualSketchpad/vision_experts/simplified_som/ops/src/cuda/ms_deform_attn_cuda.o	90966a84e6cf9cbe
+22	4602	1773205930352554726	/mnt/ssd2/cvlab_intern/VisualSketchpad/vision_experts/simplified_som/ops/build/temp.linux-x86_64-cpython-310/mnt/ssd2/cvlab_intern/VisualSketchpad/vision_experts/simplified_som/ops/src/cpu/ms_deform_attn_cpu.o	2c3b6727145ad96d
+23	14677	1773205930352554726	/mnt/ssd2/cvlab_intern/VisualSketchpad/vision_experts/simplified_som/ops/build/temp.linux-x86_64-cpython-310/mnt/ssd2/cvlab_intern/VisualSketchpad/vision_experts/simplified_som/ops/src/vision.o	6b348334416e227e
+22	17155	1773205930352554726	/mnt/ssd2/cvlab_intern/VisualSketchpad/vision_experts/simplified_som/ops/build/temp.linux-x86_64-cpython-310/mnt/ssd2/cvlab_intern/VisualSketchpad/vision_experts/simplified_som/ops/src/cuda/ms_deform_attn_cuda.o	a62a44bf4a1dd2da

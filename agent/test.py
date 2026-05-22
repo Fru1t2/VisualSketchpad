@@ -1,0 +1,1 @@
+som_client.view_api()
